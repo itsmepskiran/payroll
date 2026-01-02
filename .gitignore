@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# PyInstaller / Build outputs
+build/
+dist/
+*.spec
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local database (Be careful! Only ignore if this has real data)
+# database/*.db
