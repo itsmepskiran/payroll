@@ -1,0 +1,288 @@
+2026-01-01 17:18:15,735 - INFO - Starting HRMS application build process
+2026-01-01 17:18:15,822 - DEBUG - Loaded ctypes backend
+2026-01-01 17:18:15,864 - INFO - PyInstaller version: 6.17.0
+2026-01-01 17:18:15,865 - INFO - Removing dist directory...
+2026-01-01 17:18:15,872 - INFO - Removing build directory...
+2026-01-01 17:18:15,877 - INFO - Starting PyInstaller build...
+2026-01-01 17:18:15,877 - DEBUG - Command: C:\Program Files\Python313\python.exe -m PyInstaller --clean --noconfirm --log-level=DEBUG hrms_final.spec
+2026-01-01 17:18:16,063 - DEBUG - 49 DEPRECATION: Running PyInstaller as admin is not necessary nor sensible. Run PyInstaller from a non-administrator terminal. PyInstaller 7.0 will block this.
+2026-01-01 17:18:16,178 - DEBUG - 164 INFO: PyInstaller: 6.17.0, contrib hooks: 2025.11
+2026-01-01 17:18:16,186 - DEBUG - 164 INFO: Python: 3.13.7
+2026-01-01 17:18:16,203 - DEBUG - 189 INFO: Platform: Windows-10-10.0.19045-SP0
+2026-01-01 17:18:16,204 - DEBUG - 189 INFO: Python environment: C:\Program Files\Python313
+2026-01-01 17:18:16,205 - DEBUG - 191 DEBUG: Testing UPX availability ...
+2026-01-01 17:18:16,223 - DEBUG - 192 DEBUG: UPX is not available.
+2026-01-01 17:18:16,228 - DEBUG - 192 INFO: Removing temporary files and cleaning cache in C:\Users\Sheetal Paidimarri\AppData\Local\pyinstaller
+2026-01-01 17:18:16,229 - DEBUG - 194 DEBUG: script: D:\Official\Payroll App\main.py
+2026-01-01 17:18:16,242 - DEBUG - 194 INFO: Module search paths (PYTHONPATH):
+2026-01-01 17:18:16,242 - DEBUG - ['D:\\Official\\Payroll App',
+2026-01-01 17:18:16,243 - DEBUG - 'C:\\Program Files\\Python313\\python313.zip',
+2026-01-01 17:18:16,243 - DEBUG - 'C:\\Program Files\\Python313\\DLLs',
+2026-01-01 17:18:16,244 - DEBUG - 'C:\\Program Files\\Python313\\Lib',
+2026-01-01 17:18:16,245 - DEBUG - 'C:\\Program Files\\Python313',
+2026-01-01 17:18:16,246 - DEBUG - 'C:\\Users\\Sheetal '
+2026-01-01 17:18:16,250 - DEBUG - 'Paidimarri\\AppData\\Roaming\\Python\\Python313\\site-packages',
+2026-01-01 17:18:16,250 - DEBUG - 'C:\\Program Files\\Python313\\Lib\\site-packages',
+2026-01-01 17:18:16,266 - DEBUG - 'D:\\Official\\Payroll App']
+2026-01-01 17:18:16,685 - DEBUG - 280 DEBUG: discover_hook_directories: Hook directories: [('C:\\Program Files\\Python313\\Lib\\site-packages\\numpy\\_pyinstaller', 0), ('C:\\Program Files\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks', -1000), ('C:\\Program Files\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib', -1000)]
+2026-01-01 17:18:16,728 - DEBUG - 714 INFO: Appending 'datas' from .spec
+2026-01-01 17:18:16,729 - DEBUG - 715 INFO: checking Analysis
+2026-01-01 17:18:16,731 - DEBUG - 715 INFO: Building Analysis because Analysis-00.toc is non existent
+2026-01-01 17:18:16,746 - DEBUG - 715 INFO: Looking for Python shared library...
+2026-01-01 17:18:16,749 - DEBUG - 715 INFO: Using Python shared library: C:\Program Files\Python313\python313.dll
+2026-01-01 17:18:16,771 - DEBUG - 715 INFO: Running Analysis Analysis-00.toc
+2026-01-01 17:18:16,774 - DEBUG - 715 INFO: Target bytecode optimization level: 0
+2026-01-01 17:18:16,787 - DEBUG - 715 INFO: Initializing module dependency graph...
+2026-01-01 17:18:16,814 - DEBUG - 717 INFO: Initializing module graph hook caches...
+2026-01-01 17:18:16,818 - DEBUG - 738 INFO: Analyzing modules for base_library.zip ...
+2026-01-01 17:18:16,822 - DEBUG - 739 DEBUG: Collecting submodules for collections
+2026-01-01 17:18:17,106 - DEBUG - 111 DEBUG: collect_submodules - scanning (sub)package collections
+2026-01-01 17:18:17,106 - DEBUG - 111 DEBUG: collect_submodules - scanning (sub)package collections in location(s): ['C:\\Program Files\\Python313\\Lib\\collections']
+2026-01-01 17:18:17,126 - DEBUG - 1112 DEBUG: collect_submodules - found submodules: ['collections']
+2026-01-01 17:18:17,126 - DEBUG - 1112 DEBUG: Collecting submodules for encodings
+2026-01-01 17:18:17,372 - DEBUG - 105 DEBUG: collect_submodules - scanning (sub)package encodings
+2026-01-01 17:18:17,373 - DEBUG - 105 DEBUG: collect_submodules - scanning (sub)package encodings in location(s): ['C:\\Program Files\\Python313\\Lib\\encodings']
+2026-01-01 17:18:17,399 - DEBUG - 1385 DEBUG: collect_submodules - found submodules: ['encodings', 'encodings.aliases', 'encodings.ascii', 'encodings.base64_codec', 'encodings.big5', 'encodings.big5hkscs', 'encodings.bz2_codec', 'encodings.charmap', 'encodings.cp037', 'encodings.cp1006', 'encodings.cp1026', 'encodings.cp1125', 'encodings.cp1140', 'encodings.cp1250', 'encodings.cp1251', 'encodings.cp1252', 'encodings.cp1253', 'encodings.cp1254', 'encodings.cp1255', 'encodings.cp1256', 'encodings.cp1257', 'encodings.cp1258', 'encodings.cp273', 'encodings.cp424', 'encodings.cp437', 'encodings.cp500', 'encodings.cp720', 'encodings.cp737', 'encodings.cp775', 'encodings.cp850', 'encodings.cp852', 'encodings.cp855', 'encodings.cp856', 'encodings.cp857', 'encodings.cp858', 'encodings.cp860', 'encodings.cp861', 'encodings.cp862', 'encodings.cp863', 'encodings.cp864', 'encodings.cp865', 'encodings.cp866', 'encodings.cp869', 'encodings.cp874', 'encodings.cp875', 'encodings.cp932', 'encodings.cp949', 'encodings.cp950', 'encodings.euc_jis_2004', 'encodings.euc_jisx0213', 'encodings.euc_jp', 'encodings.euc_kr', 'encodings.gb18030', 'encodings.gb2312', 'encodings.gbk', 'encodings.hex_codec', 'encodings.hp_roman8', 'encodings.hz', 'encodings.idna', 'encodings.iso2022_jp', 'encodings.iso2022_jp_1', 'encodings.iso2022_jp_2', 'encodings.iso2022_jp_2004', 'encodings.iso2022_jp_3', 'encodings.iso2022_jp_ext', 'encodings.iso2022_kr', 'encodings.iso8859_1', 'encodings.iso8859_10', 'encodings.iso8859_11', 'encodings.iso8859_13', 'encodings.iso8859_14', 'encodings.iso8859_15', 'encodings.iso8859_16', 'encodings.iso8859_2', 'encodings.iso8859_3', 'encodings.iso8859_4', 'encodings.iso8859_5', 'encodings.iso8859_6', 'encodings.iso8859_7', 'encodings.iso8859_8', 'encodings.iso8859_9', 'encodings.johab', 'encodings.koi8_r', 'encodings.koi8_t', 'encodings.koi8_u', 'encodings.kz1048', 'encodings.latin_1', 'encodings.mac_arabic', 'encodings.mac_croatian', 'encodings.mac_cyrillic', 'encodings.mac_farsi', 'encodings.mac_greek', 'encodings.mac_iceland', 'encodings.mac_latin2', 'encodings.mac_roman', 'encodings.mac_romanian', 'encodings.mac_turkish', 'encodings.mbcs', 'encodings.oem', 'encodings.palmos', 'encodings.ptcp154', 'encodings.punycode', 'encodings.quopri_codec', 'encodings.raw_unicode_escape', 'encodings.rot_13', 'encodings.shift_jis', 'encodings.shift_jis_2004', 'encodings.shift_jisx0213', 'encodings.tis_620', 'encodings.undefined', 'encodings.unicode_escape', 'encodings.utf_16', 'encodings.utf_16_be', 'encodings.utf_16_le', 'encodings.utf_32', 'encodings.utf_32_be', 'encodings.utf_32_le', 'encodings.utf_7', 'encodings.utf_8', 'encodings.utf_8_sig', 'encodings.uu_codec', 'encodings.zlib_codec']
+2026-01-01 17:18:17,401 - DEBUG - 1385 DEBUG: Collecting submodules for re
+2026-01-01 17:18:17,682 - DEBUG - 113 DEBUG: collect_submodules - scanning (sub)package re
+2026-01-01 17:18:17,682 - DEBUG - 113 DEBUG: collect_submodules - scanning (sub)package re in location(s): ['C:\\Program Files\\Python313\\Lib\\re']
+2026-01-01 17:18:17,704 - DEBUG - 1690 DEBUG: collect_submodules - found submodules: ['re', 're._casefix', 're._compiler', 're._constants', 're._parser']
+2026-01-01 17:18:17,984 - DEBUG - 1970 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-01-01 17:18:17,985 - DEBUG - 1971 DEBUG: Suppressing import of 'doctest' from module 'heapq' due to excluded import 'doctest' specified in a hook for 'heapq' (or its parent package(s)).
+2026-01-01 17:18:18,115 - DEBUG - 2101 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-01-01 17:18:18,116 - DEBUG - 2102 DEBUG: Collecting submodules for encodings
+2026-01-01 17:18:18,402 - DEBUG - 122 DEBUG: collect_submodules - scanning (sub)package encodings
+2026-01-01 17:18:18,403 - DEBUG - 123 DEBUG: collect_submodules - scanning (sub)package encodings in location(s): ['C:\\Program Files\\Python313\\Lib\\encodings']
+2026-01-01 17:18:18,426 - DEBUG - 2412 DEBUG: collect_submodules - found submodules: ['encodings', 'encodings.aliases', 'encodings.ascii', 'encodings.base64_codec', 'encodings.big5', 'encodings.big5hkscs', 'encodings.bz2_codec', 'encodings.charmap', 'encodings.cp037', 'encodings.cp1006', 'encodings.cp1026', 'encodings.cp1125', 'encodings.cp1140', 'encodings.cp1250', 'encodings.cp1251', 'encodings.cp1252', 'encodings.cp1253', 'encodings.cp1254', 'encodings.cp1255', 'encodings.cp1256', 'encodings.cp1257', 'encodings.cp1258', 'encodings.cp273', 'encodings.cp424', 'encodings.cp437', 'encodings.cp500', 'encodings.cp720', 'encodings.cp737', 'encodings.cp775', 'encodings.cp850', 'encodings.cp852', 'encodings.cp855', 'encodings.cp856', 'encodings.cp857', 'encodings.cp858', 'encodings.cp860', 'encodings.cp861', 'encodings.cp862', 'encodings.cp863', 'encodings.cp864', 'encodings.cp865', 'encodings.cp866', 'encodings.cp869', 'encodings.cp874', 'encodings.cp875', 'encodings.cp932', 'encodings.cp949', 'encodings.cp950', 'encodings.euc_jis_2004', 'encodings.euc_jisx0213', 'encodings.euc_jp', 'encodings.euc_kr', 'encodings.gb18030', 'encodings.gb2312', 'encodings.gbk', 'encodings.hex_codec', 'encodings.hp_roman8', 'encodings.hz', 'encodings.idna', 'encodings.iso2022_jp', 'encodings.iso2022_jp_1', 'encodings.iso2022_jp_2', 'encodings.iso2022_jp_2004', 'encodings.iso2022_jp_3', 'encodings.iso2022_jp_ext', 'encodings.iso2022_kr', 'encodings.iso8859_1', 'encodings.iso8859_10', 'encodings.iso8859_11', 'encodings.iso8859_13', 'encodings.iso8859_14', 'encodings.iso8859_15', 'encodings.iso8859_16', 'encodings.iso8859_2', 'encodings.iso8859_3', 'encodings.iso8859_4', 'encodings.iso8859_5', 'encodings.iso8859_6', 'encodings.iso8859_7', 'encodings.iso8859_8', 'encodings.iso8859_9', 'encodings.johab', 'encodings.koi8_r', 'encodings.koi8_t', 'encodings.koi8_u', 'encodings.kz1048', 'encodings.latin_1', 'encodings.mac_arabic', 'encodings.mac_croatian', 'encodings.mac_cyrillic', 'encodings.mac_farsi', 'encodings.mac_greek', 'encodings.mac_iceland', 'encodings.mac_latin2', 'encodings.mac_roman', 'encodings.mac_romanian', 'encodings.mac_turkish', 'encodings.mbcs', 'encodings.oem', 'encodings.palmos', 'encodings.ptcp154', 'encodings.punycode', 'encodings.quopri_codec', 'encodings.raw_unicode_escape', 'encodings.rot_13', 'encodings.shift_jis', 'encodings.shift_jis_2004', 'encodings.shift_jisx0213', 'encodings.tis_620', 'encodings.undefined', 'encodings.unicode_escape', 'encodings.utf_16', 'encodings.utf_16_be', 'encodings.utf_16_le', 'encodings.utf_32', 'encodings.utf_32_be', 'encodings.utf_32_le', 'encodings.utf_7', 'encodings.utf_8', 'encodings.utf_8_sig', 'encodings.uu_codec', 'encodings.zlib_codec']
+2026-01-01 17:18:20,327 - DEBUG - 4313 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-01-01 17:18:20,335 - DEBUG - 4321 DEBUG: Suppressing import of 'doctest' from module 'pickle' due to excluded import 'doctest' specified in a hook for 'pickle' (or its parent package(s)).
+2026-01-01 17:18:20,336 - DEBUG - 4321 DEBUG: Suppressing import of 'argparse' from module 'pickle' due to excluded import 'argparse' specified in a hook for 'pickle' (or its parent package(s)).
+2026-01-01 17:18:21,796 - DEBUG - 5782 INFO: Caching module dependency graph...
+2026-01-01 17:18:21,837 - DEBUG - 5823 INFO: Analyzing D:\Official\Payroll App\main.py
+2026-01-01 17:18:21,849 - DEBUG - 5835 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+2026-01-01 17:18:21,850 - DEBUG - 5836 DEBUG: Collecting submodules for sqlite3
+2026-01-01 17:18:22,098 - DEBUG - 103 DEBUG: collect_submodules - scanning (sub)package sqlite3
+2026-01-01 17:18:22,101 - DEBUG - 107 DEBUG: collect_submodules - scanning (sub)package sqlite3 in location(s): ['C:\\Program Files\\Python313\\Lib\\sqlite3']
+2026-01-01 17:18:22,118 - DEBUG - 6104 DEBUG: collect_submodules - found submodules: ['sqlite3', 'sqlite3.__main__', 'sqlite3.dbapi2', 'sqlite3.dump']
+2026-01-01 17:18:22,152 - DEBUG - 6138 DEBUG: Hidden import 'PyQt6' already found
+2026-01-01 17:18:22,152 - DEBUG - 6138 INFO: Analyzing hidden import 'PyQt6.QtCore'
+2026-01-01 17:18:22,155 - DEBUG - 6138 ERROR: Hidden import 'PyQt6.QtCore' not found
+2026-01-01 17:18:22,166 - DEBUG - 6138 INFO: Analyzing hidden import 'PyQt6.QtGui'
+2026-01-01 17:18:22,169 - DEBUG - 6138 ERROR: Hidden import 'PyQt6.QtGui' not found
+2026-01-01 17:18:22,187 - DEBUG - 6138 INFO: Analyzing hidden import 'PyQt6.QtWidgets'
+2026-01-01 17:18:22,189 - DEBUG - 6138 ERROR: Hidden import 'PyQt6.QtWidgets' not found
+2026-01-01 17:18:22,190 - DEBUG - 6138 INFO: Analyzing hidden import 'PyQt6.QtSql'
+2026-01-01 17:18:22,208 - DEBUG - 6138 ERROR: Hidden import 'PyQt6.QtSql' not found
+2026-01-01 17:18:22,211 - DEBUG - 6138 INFO: Analyzing hidden import 'PyQt6.QtNetwork'
+2026-01-01 17:18:22,211 - DEBUG - 6138 ERROR: Hidden import 'PyQt6.QtNetwork' not found
+2026-01-01 17:18:22,231 - DEBUG - 6138 INFO: Processing module hooks (post-graph stage)...
+2026-01-01 17:18:22,235 - DEBUG - 6168 INFO: Performing binary vs. data reclassification (5 entries)
+2026-01-01 17:18:22,249 - DEBUG - 6170 INFO: Looking for ctypes DLLs
+2026-01-01 17:18:22,254 - DEBUG - 6176 INFO: Analyzing run-time hooks ...
+2026-01-01 17:18:22,267 - DEBUG - 6177 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+2026-01-01 17:18:22,272 - DEBUG - 6181 DEBUG: Module collection settings: {}
+2026-01-01 17:18:22,291 - DEBUG - 6181 DEBUG: Target optimization level 0 matches run-time optimization level 0 - using modulegraph's code-object cache.
+2026-01-01 17:18:22,292 - DEBUG - 6182 INFO: Creating base_library.zip...
+2026-01-01 17:18:22,293 - DEBUG - 6206 INFO: Looking for dynamic libraries
+2026-01-01 17:18:22,365 - DEBUG - 6351 INFO: Extra DLL search directories (AddDllDirectory): []
+2026-01-01 17:18:22,365 - DEBUG - 6351 INFO: Extra DLL search directories (PATH): []
+2026-01-01 17:18:22,368 - DEBUG - 6352 DEBUG: Analyzing binary 'C:\\Program Files\\Python313\\python313.dll'
+2026-01-01 17:18:22,385 - DEBUG - 6371 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,386 - DEBUG - 6371 DEBUG: Processing dependency, name: 'api-ms-win-crt-conio-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,386 - DEBUG - 6371 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,387 - DEBUG - 6371 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,388 - DEBUG - 6371 DEBUG: Processing dependency, name: 'api-ms-win-crt-locale-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,395 - DEBUG - 6371 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,408 - DEBUG - 6372 DEBUG: Processing dependency, name: 'api-ms-win-crt-filesystem-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,410 - DEBUG - 6372 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,411 - DEBUG - 6372 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,425 - DEBUG - 6372 DEBUG: Processing dependency, name: 'api-ms-win-core-path-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,428 - DEBUG - 6372 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Program Files\\Python313\\VCRUNTIME140.dll'
+2026-01-01 17:18:22,438 - DEBUG - 6372 DEBUG: Collecting dependency 'C:\\Program Files\\Python313\\VCRUNTIME140.dll' as 'VCRUNTIME140.dll'.
+2026-01-01 17:18:22,439 - DEBUG - 6372 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,444 - DEBUG - 6372 DEBUG: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,444 - DEBUG - 6372 DEBUG: Processing dependency, name: 'api-ms-win-crt-process-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,445 - DEBUG - 6372 DEBUG: Processing dependency, name: 'bcrypt.dll', resolved path: 'C:\\Windows\\system32\\bcrypt.dll'
+2026-01-01 17:18:22,446 - DEBUG - 6372 DEBUG: Skipping dependency 'C:\\Windows\\system32\\bcrypt.dll' due to global exclusion rules.
+2026-01-01 17:18:22,447 - DEBUG - 6373 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\Windows\\system32\\KERNEL32.dll'
+2026-01-01 17:18:22,452 - DEBUG - 6373 DEBUG: Skipping dependency 'C:\\Windows\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,464 - DEBUG - 6373 DEBUG: Processing dependency, name: 'ADVAPI32.dll', resolved path: 'C:\\Windows\\system32\\ADVAPI32.dll'
+2026-01-01 17:18:22,465 - DEBUG - 6373 DEBUG: Skipping dependency 'C:\\Windows\\system32\\ADVAPI32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,469 - DEBUG - 6373 DEBUG: Processing dependency, name: 'VERSION.dll', resolved path: 'C:\\Windows\\system32\\VERSION.dll'
+2026-01-01 17:18:22,472 - DEBUG - 6373 DEBUG: Skipping dependency 'C:\\Windows\\system32\\VERSION.dll' due to global exclusion rules.
+2026-01-01 17:18:22,472 - DEBUG - 6373 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\Windows\\system32\\WS2_32.dll'
+2026-01-01 17:18:22,486 - DEBUG - 6373 DEBUG: Skipping dependency 'C:\\Windows\\system32\\WS2_32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,489 - DEBUG - 6373 DEBUG: Analyzing binary 'C:\\Program Files\\Python313\\DLLs\\unicodedata.pyd'
+2026-01-01 17:18:22,490 - DEBUG - 6380 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,503 - DEBUG - 6381 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Program Files\\Python313\\VCRUNTIME140.dll'
+2026-01-01 17:18:22,506 - DEBUG - 6381 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\VCRUNTIME140.dll' due to prior processing.
+2026-01-01 17:18:22,507 - DEBUG - 6381 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,525 - DEBUG - 6381 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,528 - DEBUG - 6381 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\Windows\\system32\\KERNEL32.dll'
+2026-01-01 17:18:22,529 - DEBUG - 6381 DEBUG: Skipping dependency 'C:\\Windows\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,542 - DEBUG - 6381 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Program Files\\Python313\\python313.dll'
+2026-01-01 17:18:22,543 - DEBUG - 6382 DEBUG: Collecting dependency 'C:\\Program Files\\Python313\\python313.dll' as 'python313.dll'.
+2026-01-01 17:18:22,543 - DEBUG - 6382 DEBUG: Analyzing binary 'C:\\Program Files\\Python313\\DLLs\\_decimal.pyd'
+2026-01-01 17:18:22,544 - DEBUG - 6388 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,544 - DEBUG - 6388 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,545 - DEBUG - 6388 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Program Files\\Python313\\VCRUNTIME140.dll'
+2026-01-01 17:18:22,546 - DEBUG - 6388 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\VCRUNTIME140.dll' due to prior processing.
+2026-01-01 17:18:22,547 - DEBUG - 6388 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,548 - DEBUG - 6388 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,559 - DEBUG - 6388 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,569 - DEBUG - 6388 DEBUG: Processing dependency, name: 'api-ms-win-crt-locale-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,570 - DEBUG - 6388 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,570 - DEBUG - 6388 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\Windows\\system32\\KERNEL32.dll'
+2026-01-01 17:18:22,571 - DEBUG - 6388 DEBUG: Skipping dependency 'C:\\Windows\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,571 - DEBUG - 6388 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Program Files\\Python313\\python313.dll'
+2026-01-01 17:18:22,572 - DEBUG - 6389 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\python313.dll' due to prior processing.
+2026-01-01 17:18:22,572 - DEBUG - 6389 DEBUG: Analyzing binary 'C:\\Program Files\\Python313\\DLLs\\_hashlib.pyd'
+2026-01-01 17:18:22,573 - DEBUG - 6395 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Program Files\\Python313\\VCRUNTIME140.dll'
+2026-01-01 17:18:22,574 - DEBUG - 6425 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\VCRUNTIME140.dll' due to prior processing.
+2026-01-01 17:18:22,574 - DEBUG - 6426 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,575 - DEBUG - 6426 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,575 - DEBUG - 6426 DEBUG: Processing dependency, name: 'libcrypto-3.dll', resolved path: 'C:\\Program Files\\Python313\\DLLs\\libcrypto-3.dll'
+2026-01-01 17:18:22,576 - DEBUG - 6426 DEBUG: Collecting dependency 'C:\\Program Files\\Python313\\DLLs\\libcrypto-3.dll' as 'libcrypto-3.dll'.
+2026-01-01 17:18:22,577 - DEBUG - 6426 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\Windows\\system32\\KERNEL32.dll'
+2026-01-01 17:18:22,577 - DEBUG - 6427 DEBUG: Skipping dependency 'C:\\Windows\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,578 - DEBUG - 6427 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Program Files\\Python313\\python313.dll'
+2026-01-01 17:18:22,579 - DEBUG - 6427 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\python313.dll' due to prior processing.
+2026-01-01 17:18:22,580 - DEBUG - 6427 DEBUG: Analyzing binary 'C:\\Program Files\\Python313\\DLLs\\select.pyd'
+2026-01-01 17:18:22,592 - DEBUG - 6433 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Program Files\\Python313\\VCRUNTIME140.dll'
+2026-01-01 17:18:22,593 - DEBUG - 6433 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\VCRUNTIME140.dll' due to prior processing.
+2026-01-01 17:18:22,594 - DEBUG - 6433 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,595 - DEBUG - 6433 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\Windows\\system32\\WS2_32.dll'
+2026-01-01 17:18:22,596 - DEBUG - 6433 DEBUG: Skipping dependency 'C:\\Windows\\system32\\WS2_32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,597 - DEBUG - 6433 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\Windows\\system32\\KERNEL32.dll'
+2026-01-01 17:18:22,602 - DEBUG - 6433 DEBUG: Skipping dependency 'C:\\Windows\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,603 - DEBUG - 6433 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Program Files\\Python313\\python313.dll'
+2026-01-01 17:18:22,604 - DEBUG - 6434 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\python313.dll' due to prior processing.
+2026-01-01 17:18:22,604 - DEBUG - 6434 DEBUG: Analyzing binary 'C:\\Program Files\\Python313\\DLLs\\_socket.pyd'
+2026-01-01 17:18:22,605 - DEBUG - 6441 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,606 - DEBUG - 6442 DEBUG: Processing dependency, name: 'RPCRT4.dll', resolved path: 'C:\\Windows\\system32\\RPCRT4.dll'
+2026-01-01 17:18:22,607 - DEBUG - 6442 DEBUG: Skipping dependency 'C:\\Windows\\system32\\RPCRT4.dll' due to global exclusion rules.
+2026-01-01 17:18:22,607 - DEBUG - 6442 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Program Files\\Python313\\VCRUNTIME140.dll'
+2026-01-01 17:18:22,608 - DEBUG - 6442 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\VCRUNTIME140.dll' due to prior processing.
+2026-01-01 17:18:22,609 - DEBUG - 6442 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,609 - DEBUG - 6442 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\Windows\\system32\\WS2_32.dll'
+2026-01-01 17:18:22,610 - DEBUG - 6442 DEBUG: Skipping dependency 'C:\\Windows\\system32\\WS2_32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,610 - DEBUG - 6442 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,611 - DEBUG - 6442 DEBUG: Processing dependency, name: 'IPHLPAPI.DLL', resolved path: 'C:\\Windows\\system32\\IPHLPAPI.DLL'
+2026-01-01 17:18:22,612 - DEBUG - 6442 DEBUG: Skipping dependency 'C:\\Windows\\system32\\IPHLPAPI.DLL' due to global exclusion rules.
+2026-01-01 17:18:22,613 - DEBUG - 6442 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\Windows\\system32\\KERNEL32.dll'
+2026-01-01 17:18:22,613 - DEBUG - 6442 DEBUG: Skipping dependency 'C:\\Windows\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,614 - DEBUG - 6442 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Program Files\\Python313\\python313.dll'
+2026-01-01 17:18:22,620 - DEBUG - 6443 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\python313.dll' due to prior processing.
+2026-01-01 17:18:22,631 - DEBUG - 6443 DEBUG: Analyzing binary 'C:\\Program Files\\Python313\\DLLs\\_lzma.pyd'
+2026-01-01 17:18:22,632 - DEBUG - 6446 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Program Files\\Python313\\VCRUNTIME140.dll'
+2026-01-01 17:18:22,636 - DEBUG - 6447 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\VCRUNTIME140.dll' due to prior processing.
+2026-01-01 17:18:22,637 - DEBUG - 6447 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,637 - DEBUG - 6560 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,639 - DEBUG - 6560 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\Windows\\system32\\KERNEL32.dll'
+2026-01-01 17:18:22,639 - DEBUG - 6560 DEBUG: Skipping dependency 'C:\\Windows\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,640 - DEBUG - 6560 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Program Files\\Python313\\python313.dll'
+2026-01-01 17:18:22,640 - DEBUG - 6560 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\python313.dll' due to prior processing.
+2026-01-01 17:18:22,641 - DEBUG - 6561 DEBUG: Analyzing binary 'C:\\Program Files\\Python313\\DLLs\\_bz2.pyd'
+2026-01-01 17:18:22,642 - DEBUG - 6566 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,642 - DEBUG - 6567 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Program Files\\Python313\\VCRUNTIME140.dll'
+2026-01-01 17:18:22,643 - DEBUG - 6567 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\VCRUNTIME140.dll' due to prior processing.
+2026-01-01 17:18:22,643 - DEBUG - 6567 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,644 - DEBUG - 6567 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,644 - DEBUG - 6567 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\Windows\\system32\\KERNEL32.dll'
+2026-01-01 17:18:22,645 - DEBUG - 6567 DEBUG: Skipping dependency 'C:\\Windows\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,647 - DEBUG - 6567 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Program Files\\Python313\\python313.dll'
+2026-01-01 17:18:22,647 - DEBUG - 6568 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\python313.dll' due to prior processing.
+2026-01-01 17:18:22,653 - DEBUG - 6568 DEBUG: Analyzing binary 'C:\\Program Files\\Python313\\DLLs\\_sqlite3.pyd'
+2026-01-01 17:18:22,664 - DEBUG - 6574 DEBUG: Processing dependency, name: 'sqlite3.dll', resolved path: 'C:\\Program Files\\Python313\\DLLs\\sqlite3.dll'
+2026-01-01 17:18:22,665 - DEBUG - 6575 DEBUG: Collecting dependency 'C:\\Program Files\\Python313\\DLLs\\sqlite3.dll' as 'sqlite3.dll'.
+2026-01-01 17:18:22,670 - DEBUG - 6575 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Program Files\\Python313\\VCRUNTIME140.dll'
+2026-01-01 17:18:22,670 - DEBUG - 6575 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\VCRUNTIME140.dll' due to prior processing.
+2026-01-01 17:18:22,671 - DEBUG - 6575 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,671 - DEBUG - 6575 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,672 - DEBUG - 6575 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\Windows\\system32\\KERNEL32.dll'
+2026-01-01 17:18:22,673 - DEBUG - 6575 DEBUG: Skipping dependency 'C:\\Windows\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,674 - DEBUG - 6575 DEBUG: Processing dependency, name: 'python313.dll', resolved path: 'C:\\Program Files\\Python313\\python313.dll'
+2026-01-01 17:18:22,674 - DEBUG - 6575 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\python313.dll' due to prior processing.
+2026-01-01 17:18:22,675 - DEBUG - 6575 DEBUG: Analyzing binary 'C:\\Program Files\\Python313\\VCRUNTIME140.dll'
+2026-01-01 17:18:22,676 - DEBUG - 6580 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,676 - DEBUG - 6581 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,677 - DEBUG - 6581 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,678 - DEBUG - 6581 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,679 - DEBUG - 6581 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,680 - DEBUG - 6581 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\Windows\\system32\\KERNEL32.dll'
+2026-01-01 17:18:22,680 - DEBUG - 6581 DEBUG: Skipping dependency 'C:\\Windows\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,687 - DEBUG - 6581 DEBUG: Analyzing binary 'C:\\Program Files\\Python313\\DLLs\\libcrypto-3.dll'
+2026-01-01 17:18:22,697 - DEBUG - 6611 DEBUG: Processing dependency, name: 'api-ms-win-crt-stdio-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,705 - DEBUG - 6611 DEBUG: Processing dependency, name: 'USER32.dll', resolved path: 'C:\\Windows\\system32\\USER32.dll'
+2026-01-01 17:18:22,706 - DEBUG - 6611 DEBUG: Skipping dependency 'C:\\Windows\\system32\\USER32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,707 - DEBUG - 6611 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,708 - DEBUG - 6611 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Program Files\\Python313\\VCRUNTIME140.dll'
+2026-01-01 17:18:22,709 - DEBUG - 6624 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\VCRUNTIME140.dll' due to prior processing.
+2026-01-01 17:18:22,709 - DEBUG - 6624 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,710 - DEBUG - 6624 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,711 - DEBUG - 6624 DEBUG: Processing dependency, name: 'WS2_32.dll', resolved path: 'C:\\Windows\\system32\\WS2_32.dll'
+2026-01-01 17:18:22,711 - DEBUG - 6624 DEBUG: Skipping dependency 'C:\\Windows\\system32\\WS2_32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,712 - DEBUG - 6625 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,713 - DEBUG - 6625 DEBUG: Processing dependency, name: 'api-ms-win-crt-environment-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,714 - DEBUG - 6625 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,714 - DEBUG - 6625 DEBUG: Processing dependency, name: 'api-ms-win-crt-filesystem-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,727 - DEBUG - 6625 DEBUG: Processing dependency, name: 'bcrypt.dll', resolved path: 'C:\\Windows\\system32\\bcrypt.dll'
+2026-01-01 17:18:22,727 - DEBUG - 6625 DEBUG: Skipping dependency 'C:\\Windows\\system32\\bcrypt.dll' due to global exclusion rules.
+2026-01-01 17:18:22,730 - DEBUG - 6625 DEBUG: Processing dependency, name: 'api-ms-win-crt-convert-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,731 - DEBUG - 6625 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\Windows\\system32\\KERNEL32.dll'
+2026-01-01 17:18:22,736 - DEBUG - 6625 DEBUG: Skipping dependency 'C:\\Windows\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,736 - DEBUG - 6625 DEBUG: Processing dependency, name: 'ADVAPI32.dll', resolved path: 'C:\\Windows\\system32\\ADVAPI32.dll'
+2026-01-01 17:18:22,738 - DEBUG - 6625 DEBUG: Skipping dependency 'C:\\Windows\\system32\\ADVAPI32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,738 - DEBUG - 6625 DEBUG: Analyzing binary 'C:\\Program Files\\Python313\\DLLs\\sqlite3.dll'
+2026-01-01 17:18:22,739 - DEBUG - 6632 DEBUG: Processing dependency, name: 'api-ms-win-crt-utility-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,740 - DEBUG - 6632 DEBUG: Processing dependency, name: 'api-ms-win-crt-math-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,741 - DEBUG - 6633 DEBUG: Processing dependency, name: 'VCRUNTIME140.dll', resolved path: 'C:\\Program Files\\Python313\\VCRUNTIME140.dll'
+2026-01-01 17:18:22,741 - DEBUG - 6633 DEBUG: Skipping dependency 'C:\\Program Files\\Python313\\VCRUNTIME140.dll' due to prior processing.
+2026-01-01 17:18:22,742 - DEBUG - 6633 DEBUG: Processing dependency, name: 'api-ms-win-crt-time-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,743 - DEBUG - 6633 DEBUG: Processing dependency, name: 'api-ms-win-crt-runtime-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,743 - DEBUG - 6633 DEBUG: Processing dependency, name: 'api-ms-win-crt-string-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,744 - DEBUG - 6633 DEBUG: Processing dependency, name: 'api-ms-win-crt-heap-l1-1-0.dll', resolved path: None
+2026-01-01 17:18:22,745 - DEBUG - 6633 DEBUG: Processing dependency, name: 'KERNEL32.dll', resolved path: 'C:\\Windows\\system32\\KERNEL32.dll'
+2026-01-01 17:18:22,746 - DEBUG - 6633 DEBUG: Skipping dependency 'C:\\Windows\\system32\\KERNEL32.dll' due to global exclusion rules.
+2026-01-01 17:18:22,747 - DEBUG - 6646 INFO: Warnings written to D:\Official\Payroll App\build\hrms_final\warn-hrms_final.txt
+2026-01-01 17:18:22,748 - DEBUG - 6671 INFO: Graph cross-reference written to D:\Official\Payroll App\build\hrms_final\xref-hrms_final.html
+2026-01-01 17:18:22,760 - DEBUG - 6679 INFO: Graph drawing written to D:\Official\Payroll App\build\hrms_final\graph-hrms_final.dot
+2026-01-01 17:18:22,762 - DEBUG - 6705 INFO: checking PYZ
+2026-01-01 17:18:22,762 - DEBUG - 6706 INFO: Building PYZ because PYZ-00.toc is non existent
+2026-01-01 17:18:22,763 - DEBUG - 6706 INFO: Building PYZ (ZlibArchive) D:\Official\Payroll App\build\hrms_final\PYZ-00.pyz
+2026-01-01 17:18:22,888 - DEBUG - 6874 INFO: Building PYZ (ZlibArchive) D:\Official\Payroll App\build\hrms_final\PYZ-00.pyz completed successfully.
+2026-01-01 17:18:22,893 - DEBUG - 6879 INFO: checking PKG
+2026-01-01 17:18:22,893 - DEBUG - 6879 INFO: Building PKG because PKG-00.toc is non existent
+2026-01-01 17:18:22,893 - DEBUG - 6879 INFO: Building PKG (CArchive) HRMS.pkg
+2026-01-01 17:18:22,905 - DEBUG - 6891 DEBUG: Compiling python script/module file C:\Program Files\Python313\Lib\site-packages\PyInstaller\loader\pyiboot01_bootstrap.py
+2026-01-01 17:18:22,906 - DEBUG - 6892 DEBUG: Compiling python script/module file C:\Program Files\Python313\Lib\site-packages\PyInstaller\hooks\rthooks\pyi_rth_inspect.py
+2026-01-01 17:18:22,907 - DEBUG - 6893 DEBUG: Compiling python script/module file D:\Official\Payroll App\main.py
+2026-01-01 17:18:22,924 - DEBUG - 6910 INFO: Building PKG (CArchive) HRMS.pkg completed successfully.
+2026-01-01 17:18:22,927 - DEBUG - 6912 INFO: Bootloader C:\Program Files\Python313\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+2026-01-01 17:18:22,942 - DEBUG - 6912 INFO: checking EXE
+2026-01-01 17:18:22,943 - DEBUG - 6912 INFO: Building EXE because EXE-00.toc is non existent
+2026-01-01 17:18:22,944 - DEBUG - 6912 INFO: Building EXE from EXE-00.toc
+2026-01-01 17:18:22,944 - DEBUG - 6912 INFO: Copying bootloader EXE to D:\Official\Payroll App\build\hrms_final\HRMS.exe
+2026-01-01 17:18:22,996 - DEBUG - 6982 INFO: Copying icon to EXE
+2026-01-01 17:18:22,997 - DEBUG - 6983 DEBUG: Copying icons from ['C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-windowed.ico']
+2026-01-01 17:18:23,044 - DEBUG - 7030 DEBUG: Writing RT_GROUP_ICON 1 resource with 104 bytes
+2026-01-01 17:18:23,044 - DEBUG - 7030 DEBUG: Writing RT_ICON 1 resource with 3752 bytes
+2026-01-01 17:18:23,065 - DEBUG - 7030 DEBUG: Writing RT_ICON 2 resource with 2216 bytes
+2026-01-01 17:18:23,071 - DEBUG - 7030 DEBUG: Writing RT_ICON 3 resource with 1384 bytes
+2026-01-01 17:18:23,083 - DEBUG - 7030 DEBUG: Writing RT_ICON 4 resource with 38188 bytes
+2026-01-01 17:18:23,089 - DEBUG - 7030 DEBUG: Writing RT_ICON 5 resource with 9640 bytes
+2026-01-01 17:18:23,100 - DEBUG - 7030 DEBUG: Writing RT_ICON 6 resource with 4264 bytes
+2026-01-01 17:18:23,101 - DEBUG - 7030 DEBUG: Writing RT_ICON 7 resource with 1128 bytes
+2026-01-01 17:18:23,107 - DEBUG - 7036 INFO: Copying 0 resources to EXE
+2026-01-01 17:18:23,108 - DEBUG - 7036 INFO: Embedding manifest in EXE
+2026-01-01 17:18:23,108 - DEBUG - 7044 INFO: Appending PKG archive to EXE
+2026-01-01 17:18:23,175 - DEBUG - 7161 INFO: Fixing EXE headers
+2026-01-01 17:18:23,547 - DEBUG - 7533 INFO: Building EXE from EXE-00.toc completed successfully.
+2026-01-01 17:18:23,549 - DEBUG - 7535 INFO: checking COLLECT
+2026-01-01 17:18:23,551 - DEBUG - 7535 INFO: Building COLLECT because COLLECT-00.toc is non existent
+2026-01-01 17:18:23,562 - DEBUG - 7535 INFO: Building COLLECT COLLECT-00.toc
+2026-01-01 17:18:23,733 - DEBUG - 7718 WARNING: Ignoring non-existent resource C:\Users\<username>\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt6, meant to be collected as PyQt6\.*
+2026-01-01 17:18:23,741 - DEBUG - 7727 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+2026-01-01 17:18:23,742 - DEBUG - 7728 INFO: Build complete! The results are available in: D:\Official\Payroll App\dist
+2026-01-01 17:18:23,790 - ERROR - dist_final directory was not created!
+2026-01-01 17:18:23,790 - ERROR - Build verification failed.
