@@ -20,14 +20,12 @@ def create_spec():
 block_cipher = None
 
 a = Analysis(
-    ['main.py'],
+    ['main.py', 'login.py', 'main_window.py', 'database_setup.py'],
     pathex=[],
     binaries=[],
     datas=[
         ('database', 'database'),
-        ('modules', 'modules'),
-        ('{plugins_path}', 'PyQt6/Qt6/plugins'),
-        ('{translations_path}', 'PyQt6/Qt6/translations'),
+        ('documents', 'documents'),
     ],
     hiddenimports=[
         'PyQt6',
@@ -36,6 +34,9 @@ a = Analysis(
         'PyQt6.QtWidgets',
         'PyQt6.QtSql',
         'PyQt6.QtNetwork',
+        'pandas',
+        'openpyxl',
+        'sqlite3',
     ],
     hookspath=[],
     hooksconfig={{}},
